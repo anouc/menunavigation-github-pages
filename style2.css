@@ -9,21 +9,28 @@ body
 h1
 {
 	margin-top: 100px;
-	font-family: Helvetica;
+	font-size: 20px;
+	color: #312c2c;
+	text-align: center;
+}
+
+h2 {
 	font-size: 35px;
-	color: white;
 	text-align: center;
-}
-
-h2
-{
+	color: white;
 	font-family: Helvetica;
-	font-size: 25px;
-	color: white;
-	text-align: center;
 }
 
-h3, p {
+h2 a {
+	color: #FF9E00;
+	font-weight: bold;
+}
+
+h2 a:hover {
+	color: #f9ab2c;
+}
+
+p {
 	text-align: center;
 }
 
@@ -54,19 +61,19 @@ nav a {
 nav li a {
 	padding: 5px 15px;
 	font-weight : bold;
-	color: rgba(192, 255, 244, 0.9);
+	color: rgb(227, 246, 239);
 	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
 	-webkit-border-radius : 14px;
 	-moz-border-radius : 14px;
 	border-radius : 14px;
-	background-color: rgba(0, 0, 0, 0.35);
+	background-color: rgba(0, 0, 0, 0.25);
 	transition-property: background-color;
 	transition-duration: 1s;
 }
 
 nav a:hover {
 	color : #fff;
-	background : rgba(255, 255, 255, 0.15);
+	background : rgba(255, 255, 255, 0.25);
 }
 
 
